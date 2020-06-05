@@ -1,0 +1,27 @@
+@include breakpoint($one_six) {
+
+}
+
+@include breakpoint($one_three) {
+
+}
+
+@include breakpoint($one_one_two_five) {
+	
+}
+
+@include breakpoint($nine_hundred) {
+	
+}
+
+@include breakpoint($seven_six_seven) {
+	.fl-builder-content {
+		.fl-row-fixed-width {
+			max-width: 400px;
+		}
+	}
+}
+
+@include breakpoint($three_fourty) {
+	
+}

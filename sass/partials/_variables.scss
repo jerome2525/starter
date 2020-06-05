@@ -1,0 +1,41 @@
+//@include font-face("Georgia", font-files("Georgia.woff")); => include font face properly, just place it on /fonts folder
+
+$red: #E1261C;
+$blue: #337ab7;
+$gray: #f5f5f5;
+$darkgray: darken($gray, 40%);
+$black: #000000;
+$gold: #D3B88B;
+$offwhite: #f8f8f8;
+$green: #69804e;
+$white: #ffffff;
+
+/* Fonts
+---------------------------------------- */
+$font-stack-1: 'Montserrat', sans-serif;
+
+/* Susy
+---------------------------------------- */
+
+$susy: (
+        columns: 12,
+        gutters: .25,
+        math: fluid,
+        output: float,
+);
+
+@include breakpoint-set('default feature', 'max-width');
+
+@include border-box-sizing;
+
+$one_six: max-width 1600px;
+$one_three: max-width 1300px;
+$one_one_two_five: max-width 1125px;
+$nine_hundred: max-width 900px;
+$seven_six_seven: max-width 767px;
+$three_fourty: max-width 340px;
+
+
+
+
+
