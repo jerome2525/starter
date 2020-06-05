@@ -36,14 +36,14 @@ body {
 	font-size: 16px;
 	font-size: rem(16px);
 	font-family: $font-stack-1;
-	color: $black;
+	color: #000000;
 	line-height: 21px;
 	line-height: rem(21px);
 }
 
 a {
 	font-family: $font-stack-1;
-	color: $blue;
+	color: #000000;
 	text-decoration: none;
 }
 
@@ -79,41 +79,26 @@ img {
 h1 {
 	font-size: 60px;
 	font-size: rem(60px);
-	@include breakpoint($seven_six_seven) {
-		font-size: 40px;
-	}
 }
 
 h2 {
 	font-size: 60px;
 	font-size: rem(60px);
-	@include breakpoint($seven_six_seven) {
-		font-size: 35px;
-	}
 }
 
 h3 {
 	font-size: 36px;
 	font-size: rem(36px);
-	@include breakpoint($seven_six_seven) {
-		font-size: 30px;
-	}
 }
 
 h4 {
 	font-size: 36px;
 	font-size: rem(36px);
-	@include breakpoint($seven_six_seven) {
-		font-size: 25px;
-	}
 }
 
 h5 {
 	font-size: 25px;
 	font-size: rem(25px);
-	@include breakpoint($seven_six_seven) {
-		font-size: 18px;
-	}
 }
 
 h6 {
@@ -121,9 +106,6 @@ h6 {
 	font-size: rem(16px);
 	text-transform: uppercase;
 	margin-bottom: rem(20px);
-	@include breakpoint($seven_six_seven) {
-		font-size: 18px;
-	}
 }
 
 blockquote {
